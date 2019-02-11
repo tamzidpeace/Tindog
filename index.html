@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
-    <link rel="stylesheet" href="css/styles.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
     <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="js/bootstrap.js" charset="utf-8"></script>
 
@@ -22,44 +24,51 @@
 
 <section id="title">
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg  navbar-light">
-        <a style="color: antiquewhite" class="navbar-brand" href="#"><img
-                src="https://getbootstrap.com/docs/4.2/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-            TinDog</a>
+    <div class="container-fluid">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg  navbar-light">
+            <a style="color: antiquewhite" class="navbar-brand tindog" href="#"><img
+                    src="https://getbootstrap.com/docs/4.2/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                    alt="">
+                Tindog</a>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a style="color: antiquewhite" class="nav-link" href="#">Home<span
-                        class="sr-only">(current)</span></a></li>
-                <li class="nav-item"><a style="color: antiquewhite" class="nav-link" href="#">Features </a></li>
-                <li class="nav-item"><a style="color: antiquewhite" class="nav-link" href="#">Pricing</a></li>
-            </ul>
-        </div>
-    </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a style="color: antiquewhite" class="nav-link" href="#">Home<span
+                            class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a style="color: antiquewhite" class="nav-link" href="#">Features </a></li>
+                    <li class="nav-item"><a style="color: antiquewhite" class="nav-link" href="#">Pricing</a></li>
+                </ul>
+            </div>
+        </nav>
 
 
-    <!-- Title -->
+        <!-- Title -->
 
-    <div class="container">
 
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <h1>Meet new and interesting dogs nearby.</h1>
-                <button type="button">Download</button>
-                <button type="button">Download</button>
+                <h1 id="h1ofup">Meet new and interesting dogs nearby.</h1>
+                <button type="button" class="btn btn-dark btn-lg">
+                    <i class="fab fa-apple"></i> Download
+                </button>
+                <button type="button" class="btn btn-outline-dark btn-lg">
+                    <i class="fab fa-google-play"></i> Download
+                </button>
             </div>
 
-            <div class="col-lg-6 col-md-6">
+            <div  class="col-lg-6 col-md-6">
                 <div>
-                    <img src="images/iphone6.png" alt="iphone-mockup">
+                    <img id="dog" src="images/iphone6.png" alt="iphone-mockup">
                 </div>
             </div>
+
 
         </div>
 

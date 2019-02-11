@@ -1,3 +1,26 @@
 #title {
     background-color: #ff4c68;
 }
+.tindog {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 2rem;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#dog {
+    margin-top: 20px;
+    transform: rotate(20deg);
+    height: 600px;
+    width: 300px;
+}
+
+body {
+    font-family: 'Montserrat-black', sans-serif;
+}
