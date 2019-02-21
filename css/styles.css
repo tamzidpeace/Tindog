@@ -1,6 +1,7 @@
 #title {
     background-color: #ff4c68;
     color: white;
+    height: 605px;
 }
 .tindog {
     font-family: 'Montserrat-black', sans-serif;
@@ -20,6 +21,7 @@ h1 {
     transform: rotate(20deg);
     height: 600px;
     width: 300px;
+    position: relative;
 }
 
 body {
@@ -27,8 +29,11 @@ body {
 }
 
 #features {
-    margin-top: 30px;
+    padding: 30px;
     text-align: center;
+    z-index: 1;
+    position: relative;
+    background-color: white;
 }
 
 .fas , .far {
