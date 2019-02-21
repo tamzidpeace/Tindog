@@ -1,5 +1,6 @@
 #title {
     background-color: #ff4c68;
+    color: white;
 }
 .tindog {
     font-family: 'Montserrat-black', sans-serif;
@@ -23,4 +24,72 @@ h1 {
 
 body {
     font-family: 'Montserrat-black', sans-serif;
+}
+
+#features {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.fas , .far {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+.fas:hover{
+    color: #ff4c68;
+}
+
+.far:hover{
+    color: #ff4c68;
+}
+
+h2 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.t1 {
+    color: #8f8f8f;
+    text-align: center;
+}
+
+
+/*testimonial section*/
+
+#testimonials {
+    padding: 15% 7%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#testimonial {
+    padding: 15% 7%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonials-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
