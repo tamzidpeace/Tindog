@@ -1,27 +1,38 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #title {
     background-color: #ff4c68;
     color: white;
-    height: 605px;
+    height: 577px;
+    font-weight: bold;
 }
+
 .tindog {
     font-family: 'Montserrat-black', sans-serif;
     font-size: 2rem;
 }
+
 .container-fluid {
     padding: 3% 15%;
 }
+
 h1 {
     font-family: 'Ubuntu', sans-serif;
+    /*
     font-family: 'Montserrat-black', sans-serif;
+    */
     font-size: 3rem;
     line-height: 1.5;
 }
+
 #dog {
     margin-top: 20px;
     transform: rotate(20deg);
     height: 600px;
     width: 300px;
-    position: relative;
+    position: absolute;
 }
 
 body {
@@ -36,16 +47,16 @@ body {
     background-color: white;
 }
 
-.fas , .far {
+.fas, .far {
     color: #ef8172;
     margin-bottom: 10px;
 }
 
-.fas:hover{
+.fas:hover {
     color: #ff4c68;
 }
 
-.far:hover{
+.far:hover {
     color: #ff4c68;
 }
 
@@ -60,11 +71,11 @@ h3 {
     font-weight: bold;
     text-align: center;
 }
+
 .t1 {
     color: #8f8f8f;
     text-align: center;
 }
-
 
 /*testimonial section*/
 
@@ -103,4 +114,60 @@ h3 {
     padding: 100px;
     font-family: 'Montserrat-black', sans-serif;
     text-align: center;
+}
+
+@media (max-width: 770px) {
+    #dog {
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title {
+        height: 100%;
+        text-align: center;
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+    height: 300%;
+}
+
+.cta-content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.cta-content h1 {
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    height: 250px;
+    background-color: #FFFFFF;
+}
+
+.footer-content {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.play {
+    background-color: white;
+    color: black;
+}
+
+.mIcon {
+    padding: 4px;
+}
+
+.footer-p {
+    color: #99A0A8;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
 }
